@@ -1,0 +1,12 @@
+{
+	"if" : {
+		"scope": "php, html, phtml",
+		"prefix": "tif",
+		"body": [
+			"<?php if ($1) : ?>",
+			"    $2",
+			"<?php endif; ?>"
+		],
+		"description": "HTML if Template"
+	}
+}
